@@ -1,1 +1,6 @@
-!
+.section1{
+  background-image: url("asset/bg-image-hero.png");/*image de fond */
+}
+.txt.white{
+    color: blanchedalmond;
+}
