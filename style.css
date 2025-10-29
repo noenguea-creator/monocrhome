@@ -1,6 +1,49 @@
-.section1{
-  background-image: url("asset/bg-image-hero.png");/*image de fond */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+font fam
+
+blue {
+    background-color: blue;
 }
-.txt.white{
-    color: blanchedalmond;
+
+red {
+    background-color: red;
+}
+
+.section1 {
+    background-image: url("asset/bg-image-hero.png");
+    /*image de fond */
+
+    height: 70vh;
+    /*indique la auteur de mon ecran  */
+
+    background-position: center;
+    /*position de limage*/
+    background-repeat: no-repeat;
+    /*repeter l'image*/
+    background-size: cover;
+    /*limage couvre*/
+    background-position: center;
+}
+
+.txt_white {
+    color: white;
+}
+
+.supp-puce {
+    list-style: none;
+    /*suprimer les puces d'une liste */
+}
+
+a {
+    text-decoration: none;
+    /*retirer les soulignment */
+    color: black;
+}
+
+.large33 {
+    width: 33%;
+}
+
+h1 {
+    font-family: 'rubik', sans-serif;
 }
